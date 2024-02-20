@@ -26,10 +26,7 @@
 */
 
 int taskX(int number) {
-	number++;
-	while (number % 2 != 0) {
-		number++;
-	}
-
-	return number;
+	
+	
+	return number % 2 == 1 ? number + 1 : number + 2;
 }
