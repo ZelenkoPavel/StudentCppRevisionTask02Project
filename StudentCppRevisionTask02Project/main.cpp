@@ -1,6 +1,6 @@
 #include "tests.h"
 
-int task03(int);
+
 
 int main(void) {
 	testingTask01();
