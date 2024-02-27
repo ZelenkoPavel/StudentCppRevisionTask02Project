@@ -26,9 +26,9 @@
 
 int task03(int number) {
 
-	number = number % 100 / 10;
-
 	number = number < 0 ? -number : number;
+
+	number = number % 100 / 10;
 
 	return number;
 }
